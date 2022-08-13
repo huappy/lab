@@ -1,15 +1,15 @@
 class Television:
-    MIN_channel = 0     # Minimum TV __channel
-    MAX_channel = 3     # Maximum TV __channel
+    MIN_channel: int = 0     # Minimum TV __channel
+    MAX_channel: int = 3     # Maximum TV __channel
 
-    MIN_volume = 0      # Minimum TV __volume
-    MAX_volume = 2      # Maximum TV __volume
+    MIN_volume: int = 0      # Minimum TV __volume
+    MAX_volume: int = 2      # Maximum TV __volume
 
     def __init__(self):
 
-        self.__channel = Television.MIN_channel
-        self.__volume = Television.MIN_volume
-        self.__on = "False"
+        self.__channel: int = Television.MIN_channel
+        self.__volume: int = Television.MIN_volume
+        self.__on: bool = "False"
 
         pass
 
